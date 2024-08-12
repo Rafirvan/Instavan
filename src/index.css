@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+:root {
+
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html{
+  height: 100%;
+  width: 100%;
+}
+
+body{
+  height: inherit;
+  width: inherit;
+}
+
+#root{
+height: inherit;
+width: inherit;
+}
+
+#LoginScreenshots img {
+    transition: opacity 0.5s ease; 
+    opacity: 0;
+    
+}
+
+#LoginScreenshots img.active { 
+    opacity: 1;
+    
+}
+
+@font-face {
+    font-family: 'Fontspring'; 
+    src: url('./assets/Fontspring.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
